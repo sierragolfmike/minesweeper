@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Assign
+comment0.text=\n\ The\ Assign\ class\ represents\ a\ move\ assignment\ in\ the\ Minesweeper\ game.\n\ It\ stores\ the\ row\ and\ column\ being\ assigned,\ as\ well\ as\ the\ game\ and\ the\ moves\ array.\n\ \n\ @author\ Samuel\ McCalarence\n\ @version\ 1.8\n
+comment1.params=game\ row\ col\ number
+comment1.target=Assign(Minesweeper,\ int,\ int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ the\ Assign\ class.\n\ Initializes\ the\ Assign\ object\ with\ the\ given\ game,\ row,\ column,\ and\ number.\n\ Calls\ the\ assignMove\ method\ to\ set\ the\ state\ of\ the\ slot\ being\ assigned.\n\n\ @param\ game\ \ \ the\ game\n\ @param\ row\ \ \ \ the\ row\ the\ user\ has\ selected\n\ @param\ col\ \ \ \ the\ column\ the\ user\ has\ selected\n\ @param\ number\ a\ String\ value\ that\ represents\ the\ move\ to\ be\ assigned\n
+comment2.params=number
+comment2.target=void\ assignMove(java.lang.String)
+comment2.text=\n\ Assigns\ a\ move\ to\ the\ specified\ cell\ in\ the\ moves\ array.\n\n\ @param\ number\ the\ move\ to\ be\ assigned\ to\ the\ cell\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\n\ Returns\ the\ current\ row\ value\ for\ this\ move.\n\ Allows\ another\ element\ of\ the\ program\ to\ access\ this\ move's\ current\ row.\n\n\ @return\ the\ row\ value\n
+numComments=4

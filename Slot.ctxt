@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\n\ This\ class\ represents\ a\ slot\ in\ the\ game\ board.\n\ It\ contains\ the\ row\ and\ column\ number\ of\ the\ slot,\ and\ the\ current\ state\ of\ the\ slot.\n\ The\ state\ of\ the\ slot\ can\ be\ either\ empty,\ filled,\ or\ flagged.\n\ The\ state\ of\ the\ slot\ can\ be\ changed\ by\ the\ user.\n\ The\ slot\ can\ be\ observed\ by\ the\ game\ board.\n\ \n\ @author\ Samuel\ McCalarence\n\ @version\ 1.8\n
+comment1.params=col\ row\ status
+comment1.target=Slot(int,\ int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ the\ Slot\ class.\n\ Initialises\ the\ slot\ with\ the\ given\ row,\ column,\ and\ status.\n\ \n\ @param\ col\ \ \ \ the\ column\ number\ of\ the\ slot\n\ @param\ row\ \ \ \ the\ row\ number\ of\ the\ slot\n\ @param\ status\ the\ status\ of\ the\ slot\n
+comment2.params=
+comment2.target=java.lang.String\ getState()
+comment2.text=\n\ getState\n\ This\ provides\ the\ current\ state\ of\ the\ slot\n\ @return\ the\ current\ state\ of\ the\ slot\n
+comment3.params=state
+comment3.target=void\ setState(java.lang.String)
+comment3.text=\n\ setState\n\ This\ method\ sets\ the\ state\ of\ the\ slot\n\ @param\ state\ -\ the\ new\ state\ of\ the\ slot\n
+numComments=4

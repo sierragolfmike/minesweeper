@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\n\ The\ GUI\ class\ represents\ the\ graphical\ user\ interface\ for\ the\ Minesweeper\ game.\n\ It\ extends\ the\ JFrame\ class\ and\ provides\ methods\ to\ initialize\ the\ GUI,\ create\ the\ game\ board,\n\ add\ control\ buttons,\ refresh\ the\ game\ board,\ and\ handle\ button\ click\ events.\n\ \n\ @author\ Samuel\ McCalarence\n\ @version\ 1.8\n
+comment1.params=
+comment1.target=GUI()
+comment1.text=\n\ Constructs\ a\ new\ GUI\ object.\n\ Initializes\ the\ game,\ sets\ the\ number\ of\ rows\ and\ columns,\n\ and\ creates\ an\ array\ of\ JButtons\ for\ the\ game\ board.\n
+comment2.params=
+comment2.target=void\ initialiseGUI()
+comment2.text=\n\ Initialises\ the\ GUI\ for\ the\ Minesweeper\ game.\n\ Sets\ the\ title,\ size,\ layout,\ and\ panels\ for\ the\ game\ board,\ control\ buttons,\ and\ information\ display.\n\ Displays\ the\ GUI\ to\ the\ user.\n
+comment3.params=gridPanel
+comment3.target=void\ createGameBoard(javax.swing.JPanel)
+comment3.text=\n\ Creates\ the\ game\ board\ by\ initialising\ buttons\ for\ each\ cell\ in\ the\ grid.\n\ Each\ button\ represents\ the\ state\ of\ a\ cell\ and\ is\ added\ to\ the\ grid\ panel.\n\ \n\ @param\ gridPanel\ the\ panel\ where\ the\ buttons\ will\ be\ added\n
+comment4.params=controlPanel
+comment4.target=void\ addControlButtons(javax.swing.JPanel)
+comment4.text=\n\ Adds\ control\ buttons\ to\ the\ specified\ control\ panel.\n\n\ @param\ controlPanel\ the\ panel\ to\ which\ the\ control\ buttons\ will\ be\ added\n
+comment5.params=
+comment5.target=void\ refreshGameBoard()
+comment5.text=\n\ Refreshes\ the\ game\ board\ by\ updating\ the\ text\ of\ each\ button\ based\ on\ the\ current\ state\ of\ the\ cells.\n\ Also\ updates\ the\ text\ of\ the\ livesLabel\ to\ display\ the\ number\ of\ lives\ left\ in\ the\ game.\n
+comment6.params=
+comment6.target=void\ loadGame()
+comment6.text=\n\ Loads\ a\ game\ by\ displaying\ a\ dialog\ box\ to\ select\ a\ save\ file\ from\ the\ "saves"\ directory.\n\ If\ a\ save\ file\ is\ selected,\ the\ game\ is\ loaded\ using\ the\ selected\ save\ file\ and\ the\ game\ board\ is\ refreshed.\n\ If\ no\ save\ files\ are\ found,\ an\ error\ message\ is\ displayed.\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ The\ entry\ point\ of\ the\ application.\n\ Initializes\ the\ GUI\ by\ invoking\ the\ GUI\ constructor.\n\n\ @param\ args\ the\ command\ line\ arguments\n
+numComments=8
