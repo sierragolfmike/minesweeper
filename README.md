@@ -1,4 +1,4 @@
-# Java Minesweeper – OOP Coursework (PE7070)
+# Java Minesweeper
 
 This repository contains a GUI-based implementation of the classic Minesweeper game developed in Java.
 
