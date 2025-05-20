@@ -10,6 +10,17 @@ Developed from a partially complete text-based version, this project completes t
 
 ---
 
+## Screenshots
+
+**GUI Mode**
+![GUI Game Board](screenshots/example-gui.png)
+![GUI Game Move](screenshots/example-gui-move.png)
+
+**Text-Based Mode**
+![Text Based Board](screenshots/example-text-board.png)
+
+---
+
 ## 🧱 Architecture
 
 ### MVC Pattern
